@@ -13,24 +13,24 @@
     <nav class="main-navigation">
       <ul class="main-navigation-list">
         <li class="main-navigation-item">
-          <a class="main-navigation-info" href="#">Информация</a>
+          <a class="main-navigation-link main-navigation-active" href="#">Информация</a>
         </li>
         <li class="main-navigation-item">
-          <a class="main-navigation-news" href="#">Новости</a>
+          <a class="main-navigation-link main-navigation-active" href="#">Новости</a>
         </li>
         <li class="main-navigation-item">
-          <a class="main-navigation-price" href="#" >Прайс-лист</a>
+          <a class="main-navigation-link main-navigation-active" href="#" >Прайс-лист</a>
         </li>
         <li class="main-navigation-item">
-          <a class="main-navigation-shop" href="#">Магазин</a>
+          <a class="main-navigation-link main-navigation-active" href="#">Магазин</a>
         </li>
         <li class="main-navigation-item">
-          <a class="main-navigation-contacts" href="#">Контакты</a>
+          <a class="main-navigation-link main-navigation-active" href="#">Контакты</a>
         </li>
       </ul>
     </nav>
     <div class="user-block">
-      <a class="login" href="#">Вход</a>
+      <a class="main-navigation-link main-navigation-active" href="#">Вход</a>
     </div>
   </div>
 </header>
@@ -52,11 +52,9 @@
   </ul>
   <div class="index-content">
     <div class="index-content-left">
-      <div class="big">
-        <figure class="big-img">
-          <img class="big-img-item" src="#" alt="Большое изображение товара n*n">
-        </figure>
-      </div>
+      <figure class="big-img">
+        <img class="big-img-item" src="#" alt="Большое изображение товара n*n">
+      </figure>
       <div class="small">
         <figure class="small-img">
           <img class="small-img-item" src="http://placehold.it/150x100" alt="Изображение товара n*n">
@@ -70,12 +68,14 @@
       </div>
     </div>
     <div class="index-content-right">
-      <span class="availability">
-        есть в наличии
-      </span>
-      <span class="article">
-        Артикул: dexter-ae
-      </span>
+      <div class="status">
+        <span class="status-availability">
+          есть в наличии
+        </span>
+        <span class="status-article">
+          Артикул: dexter-ae
+        </span>
+      </div>
       <p class="description">
         Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
       </p>
@@ -101,7 +101,6 @@
           Удобная кожаная косметичка
         </li>
       </ul>
-
     </div>
   </div>
 </main>
