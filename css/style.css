@@ -1,0 +1,22 @@
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.29em;
+  color: #000000;
+}
+
+.main-header {
+  background-color: #000000;
+}
+
+.index-content-top {
+  font-size: 32px;
+  line-height: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-description-link {
+
+}
